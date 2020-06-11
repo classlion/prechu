@@ -1,0 +1,14 @@
+.columns {
+    margin: -10px;
+}
+
+.columns>.column {
+    padding: 10px;
+}
+
+@media (min-width: 480px) {
+    .columns {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

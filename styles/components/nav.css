@@ -1,0 +1,44 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.nav {
+    display: none;
+}
+
+.nav .nav-item {
+    color: #6c6c6c;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    padding: 0 17px;
+}
+
+.nav .nav-item:hover {
+    -webkit-text-decoration: underline #5094f2 3px;
+    text-decoration: underline #5094f2 3px;
+}
+
+.nav .is-active {
+    -webkit-text-decoration: underline #5094f2 3px;
+    text-decoration: underline #5094f2 3px;
+}
+
+@media (min-width: 922px) {
+    .nav {
+        margin: 0 -34px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 8px -17px;
+    }
+    .nav .nav-item {
+        padding: 0 -34;
+    }
+}

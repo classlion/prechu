@@ -1,0 +1,33 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.nav .list-nav {
+    list-style: none;
+    padding-left: 30x;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.list-contacts .list-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.list-contacts .list-content .list-icon {
+    margin-right: 8px;
+    width: 20px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}

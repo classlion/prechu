@@ -1,0 +1,56 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: 'prechu';
+    src: url('../../fonts/prechu.eot?ssa0el');
+    src: url('../../fonts/prechu.eot?ssa0el#iefix') format('embedded-opentype'), url('../../fonts/prechu.ttf?ssa0el') format('truetype'), url('../../fonts/prechu.woff?ssa0el') format('woff'), url('../../fonts/prechu.svg?ssa0el#prechu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'prechu' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Shape_3:before {
+    content: "\e900";
+    color: #fff;
+    vertical-align: middle;
+    height: 71px;
+}
+
+.icon-Shape_5:before {
+    content: "\e901";
+    color: #fff;
+    vertical-align: middle;
+    height: 71px;
+}
+
+.icon-Shape_6:before {
+    content: "\e902";
+    color: #fff;
+    vertical-align: middle;
+    height: 71px;
+}
+
+.icon-check-circle:before {
+    content: "\e903";
+    vertical-align: middle;
+}

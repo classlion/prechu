@@ -1,0 +1,35 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.section-hero {
+    background-image: url(../../images/hero-background.jpg);
+}
+
+.hero-title {
+    color: white;
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 35.94px;
+    font-size: 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.hero-description {
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 35.94px;
+}
+
+.hero-subtitle {
+    color: white;
+}
+
+.hero-image {
+    display: inline-block
+}

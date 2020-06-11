@@ -1,0 +1,87 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.button {
+    display: inline-block;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid transparent;
+    font-size: 22px;
+    padding: 8px 16px;
+    outline: none;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin: 0 auto;
+}
+
+.button-icon {
+    margin-right: 10px;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-primary {
+    color: #ffffff;
+    background-color: #5094f2
+}
+
+.button-primary:hover {
+    color: #5094f2;
+    background-color: #ffffff;
+    border-color: #5094f2;
+}
+
+.button-danger {
+    color: #ffffff;
+    background-color: red;
+}
+
+.button-danger:hover {
+    color: red;
+    background-color: #ffffff;
+    border-color: red;
+}
+
+.button-large {
+    padding: 22px 64px;
+}
+
+.button-medium {
+    padding: 12px 24px;
+}
+
+.button-full {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .button {
+        font-size: 31px;
+        font-weight: 300;
+        line-height: 44.42px;
+        ;
+    }
+}
+
+@media (min-width: 768px) {
+    .button {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 44.42px;
+        ;
+    }
+}
