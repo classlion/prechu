@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-.nav {
+.head-nav {
     display: none;
 }
 
@@ -57,17 +57,7 @@
 }
 
 @media (min-width: 922px) {
-    .nav {
-        margin: 0 -34px;
-        display: -webkit-box;
-        display: -ms-flexbox;
+    .head-nav {
         display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        margin: 8px -17px;
-    }
-    .nav .nav-item {
-        padding: 0 -34;
     }
 }
