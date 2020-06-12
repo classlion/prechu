@@ -7,7 +7,7 @@
 
 .section-hero {
     background-image: url(../../images/hero-background.jpg);
-    background-size: covergi;
+    background-size: cover;
 }
 
 .hero-title {
