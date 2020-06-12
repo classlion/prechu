@@ -93,7 +93,7 @@
     }
 }
 
-@media (min-width: 786px) {
+@media (min-width: 771px) {
     .card {
         position: static;
         -webkit-box-orient: vertical;
