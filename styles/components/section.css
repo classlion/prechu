@@ -45,16 +45,6 @@
     position: relative;
 }
 
-.line {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: url(../../images/decore.png);
-    height: 20px;
-    background-size: 50px 10px;
-}
-
 .section-hero .section-foreground {
     height: 100%;
     display: -webkit-box;
@@ -167,5 +157,14 @@ footer {
     .shoping-cart-title {
         padding-left: 80px;
         text-align: start;
+    }
+    .line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url(../../images/decore.png);
+        height: 20px;
+        background-size: 50px 10px;
     }
 }
