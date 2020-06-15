@@ -4,10 +4,11 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-.header {
-  padding-bottom: 0;
-}
 
+.header {
+    padding: 0;
+    margin-top: 20px;
+}
 
 .nav .list-nav {
     list-style: none;
