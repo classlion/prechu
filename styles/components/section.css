@@ -157,4 +157,8 @@ footer {
         max-width: 371px;
         margin: 0 auto;
     }
+    .shoping-cart-title {
+        padding-left: 80px;
+        text-align: start;
+    }
 }
