@@ -36,7 +36,8 @@
 
 .button-primary {
     color: #ffffff;
-    background-color: #5094f2
+    background-color: #5094f2;
+    margin-left: 30px;
 }
 
 .button-primary:hover {

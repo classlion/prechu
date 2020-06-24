@@ -20,7 +20,6 @@
 
 .section-column {
     padding-bottom: 20px;
-    margin: 0 auto;
 }
 
 .section-background>img {
@@ -36,61 +35,8 @@
     right: 0;
 }
 
-.section-hero {
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    position: relative;
-}
-
-.section-hero .section-foreground {
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-
-.section-hero .section-body {
-    padding: 32px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-.section-hero-description {
-    min-width: 286px;
-}
-
 .section-content {
     padding: 22px;
-}
-
-.section-column {
-    color: white;
-    max-width: 286px;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
 }
 
 .section-first {

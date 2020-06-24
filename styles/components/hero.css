@@ -8,6 +8,56 @@
 .section-hero {
     background-image: url(../../images/hero-background.jpg);
     background-size: cover;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    width: 100%;
+    position: relative;
+}
+
+.section-column {
+    color: white;
+    max-width: 486px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-hero .section-foreground {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.section-hero .section-body {
+    padding: 32px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero-description {
+    max-width: 206px;
 }
 
 .hero-title {
