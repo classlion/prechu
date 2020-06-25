@@ -9,9 +9,6 @@
     background-image: url(../../images/hero-background.jpg);
     background-size: cover;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    width: 100%;
     position: relative;
 }
 
